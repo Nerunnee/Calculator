@@ -4,7 +4,7 @@ const firstNumber = Number(args[2]);
 const secondNumber = Number(args[4]);
 const operator = args[3];
 
-const sum = () => {
+const result = () => {
   if (operator === "+") {
     return firstNumber + secondNumber;
   }
@@ -22,4 +22,4 @@ const sum = () => {
   }
 };
 
-console.log(sum());
+console.log(result());
